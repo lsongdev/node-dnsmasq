@@ -1,6 +1,6 @@
 {
   "name": "dnsmasq",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "simple wrapper for dnsmasq in javascript",
   "main": "index.js",
   "scripts": {

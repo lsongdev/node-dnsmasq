@@ -1,4 +1,5 @@
 const conf = require('./conf');
+const leases = require('./leases');
 
 function dnsmasq(conf){
   if(!(this instanceof dnsmasq))
@@ -8,5 +9,6 @@ function dnsmasq(conf){
 }
 
 dnsmasq.conf = conf;
+dnsmasq.leases = leases;
 
 module.exports = dnsmasq;
