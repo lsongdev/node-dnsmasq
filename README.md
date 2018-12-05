@@ -27,6 +27,19 @@ server.start(() => {
   console.log('dnsmasq is started');
 });
 
+const fs = require('fs');
+const leases = require('dnsmasq/leases');
+
+fs.readFile('/var/lib/misc/dnsmasq.leases', 'utf8', (err, content) => {
+  console.log(leases(content));
+  //
+  //  { time: '1544024965',
+  //     mac: '00:0c:29:84:83:cb',
+  //     ip: '192.168.88.100',
+  //     host: 'media',
+  //     id: '*' }
+});
+
 ```
 
 ### Contributing
