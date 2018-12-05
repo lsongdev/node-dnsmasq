@@ -1,0 +1,20 @@
+{
+  "name": "dnsmasq",
+  "version": "0.0.1",
+  "description": "simple wrapper for dnsmasq in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "lsong",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/dnsmasq-javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/song940/dnsmasq-javascript/issues"
+  },
+  "homepage": "https://github.com/song940/dnsmasq-javascript#readme"
+}
